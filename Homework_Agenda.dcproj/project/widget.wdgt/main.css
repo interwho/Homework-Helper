@@ -1,0 +1,413 @@
+
+
+body {
+    margin: 0px;
+}
+
+#frontImg {
+    position: absolute;
+    display: block;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: auto;
+    bottom: 0px;
+    height: auto;
+}
+
+#info {
+    position: absolute;
+    right: 15px;
+    bottom: 18px;
+    width: 13px;
+    height: 13px;
+    left: 438px;
+    top: 23px;
+}
+
+#back {
+    display: none;
+}
+
+#BackgroungImg {
+    position: absolute;
+    display: block;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: auto;
+    bottom: 3px;
+    height: auto;
+}
+
+#DoneButton {
+    position: absolute;
+    right: 21px;
+    bottom: 21px;
+    margin-left: auto;
+    margin-top: auto;
+    -khtml-box-reflect: below 1px -webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), color-stop(0.5, transparent), to(rgb(255, 255, 255))) 0 0 0 0 stretch stretch;
+}
+
+#helloText {
+    position: absolute;
+    color: black;
+    font-family: 'Stencil Std';
+    font-size: 12pt;
+    width: 193px;
+    top: 28px;
+    right: 209px;
+    margin-left: auto;
+    left: 38px;
+    margin-right: auto;
+    bottom: 290px;
+    height: auto;
+}
+
+#textarea {
+    color: black;
+    font-family: HelveticaNeue;
+    font-size: 10pt;
+    position: absolute;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
+    width: 270px;
+    left: 137px;
+    height: 37px;
+    top: 60px;
+}
+
+#popup {
+    height: 18px;
+    position: absolute;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
+    left: 27px;
+    top: 60px;
+    width: 78px;
+}
+
+#popup1 {
+    height: 18px;
+    position: absolute;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
+    left: 27px;
+    top: 105px;
+    width: 78px;
+}
+
+#popup2 {
+    height: 18px;
+    position: absolute;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
+    left: 27px;
+    top: 152px;
+    width: 78px;
+}
+
+#popup3 {
+    height: 18px;
+    position: absolute;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
+    left: 27px;
+    top: 200px;
+    width: 78px;
+}
+
+#popup4 {
+    height: 18px;
+    position: absolute;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
+    left: 27px;
+    top: 249px;
+    width: 78px;
+}
+
+#checkbox {
+    font-family: HelveticaNeue;
+    font-size: 10pt;
+    height: 18px;
+    position: absolute;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
+    width: 24px;
+    left: 110px;
+    top: 60px;
+    opacity: 1;
+}
+
+#infobutton {
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
+    left: 396px;
+    top: 297px;
+}
+
+#textarea1 {
+    color: black;
+    font-family: HelveticaNeue;
+    font-size: 10pt;
+    position: absolute;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
+    left: 137px;
+    height: 0px;
+    min-height: 39px;
+    top: 105px;
+    width: 270px;
+}
+
+#checkbox1 {
+    font-family: HelveticaNeue;
+    font-size: 10pt;
+    height: 18px;
+    position: absolute;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
+    width: 24px;
+    top: 105px;
+    left: 110px;
+}
+
+#textarea2 {
+    height: 40px;
+    color: black;
+    font-family: HelveticaNeue;
+    font-size: 10pt;
+    position: absolute;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
+    left: 137px;
+    width: 270px;
+    top: 152px;
+}
+
+#textarea3 {
+    height: 40px;
+    color: black;
+    font-family: HelveticaNeue;
+    font-size: 10pt;
+    position: absolute;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
+    left: 137px;
+    top: 200px;
+    width: 270px;
+}
+
+#checkbox3 {
+    font-family: HelveticaNeue;
+    font-size: 10pt;
+    height: 18px;
+    position: absolute;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
+    top: 200px;
+    width: 25px;
+    left: 110px;
+}
+
+#textarea4 {
+    height: 40px;
+    color: black;
+    font-family: HelveticaNeue;
+    font-size: 10pt;
+    position: absolute;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
+    left: 137px;
+    top: 249px;
+    width: 270px;
+}
+
+#checkbox4 {
+    font-family: HelveticaNeue;
+    font-size: 10pt;
+    height: 18px;
+    position: absolute;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
+    width: 25px;
+    top: 249px;
+    left: 110px;
+}
+
+#input4 {
+    margin-right: 3px;
+    min-height: 0px;
+    -khtml-margin-top-collapse: collapse;
+    -khtml-margin-bottom-collapse: collapse;
+    width: 12px;
+}
+
+#CompletedText {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 0px;
+    font-family: 'Lucida Grande';
+    font-size: 9pt;
+    top: 46px;
+    left: 87px;
+    right: 284px;
+    width: auto;
+    bottom: 278px;
+    height: auto;
+}
+
+.selected #CompletedText {
+    color: white;
+}
+
+#WhatText {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 0px;
+    font-family: 'Lucida Grande';
+    font-size: 9pt;
+    left: 255px;
+    top: 46px;
+    right: 150px;
+    width: auto;
+    bottom: 277px;
+    height: auto;
+}
+
+.selected #WhatText {
+    color: white;
+}
+
+#SubjectText {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 0px;
+    font-family: 'Lucida Grande';
+    font-size: 9pt;
+    top: 46px;
+    left: 27px;
+    right: 370px;
+    width: auto;
+    bottom: 277px;
+    height: auto;
+}
+
+.selected #SubjectText {
+    color: white;
+}
+
+#CopyrightText {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 0px;
+    text-align: center;
+    left: 66px;
+    -khtml-box-reflect: below 1px -webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), color-stop(0.5, transparent), to(rgb(255, 255, 255))) 0 0 0 0 stretch stretch;
+    top: 238px;
+    font-family: 'Lucida Grande';
+    font-size: 11pt;
+    right: 124px;
+    width: auto;
+    bottom: 60px;
+    height: auto;
+}
+
+.selected #CopyrightText {
+    color: white;
+}
+
+#TitleText {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 0px;
+    top: 33px;
+    font-family: 'Stencil Std';
+    color: rgb(0, 0, 0);
+    font-size: 29px;
+    text-shadow: rgb(191, 191, 191) 0px 0px 0px;
+    text-align: center;
+    left: 52px;
+    right: 53px;
+    width: auto;
+    bottom: 224px;
+    height: auto;
+    -khtml-box-reflect: below 1px -webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), color-stop(0.5, transparent), to(rgb(255, 255, 255))) 0 0 0 0 stretch stretch;
+}
+
+.selected #TitleText {
+    color: white;
+}
+
+#text {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 0px;
+    top: 294px;
+    left: 45px;
+    right: 103px;
+    width: auto;
+    bottom: 28px;
+    height: auto;
+    font-family: 'Lucida Grande';
+    font-size: 10pt;
+}
+
+.selected #text {
+    color: white;
+}
+
+#checkbox2 {
+    font-family: HelveticaNeue;
+    font-size: 10pt;
+    height: 18px;
+    position: absolute;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
+    width: 25px;
+    left: 110px;
+    top: 152px;
+}
+
+#text1 {
+    font-size: 13px;
+    font-family: 'Lucida Grande', Arial, sans-serif;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 0px;
+    left: 342px;
+    top: 20px;
+    width: auto;
+    height: auto;
+}
+
+.selected #text1 {
+    color: white;
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <script type="text/javascript" src="file:///System/Library/WidgetResources/AppleClasses/AppleAnimator.js" charset="utf-8"></script>
+    <script type="text/javascript" src="file:///System/Library/WidgetResources/AppleClasses/AppleButton.js" charset="utf-8"></script>
+    <script type="text/javascript" src="file:///System/Library/WidgetResources/AppleClasses/AppleInfoButton.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="main.css">
+    <script type="text/javascript" src="Parts/parts.js" charset="utf-8"></script>
+    <script type="text/javascript" src="localizedStrings.js" charset="utf-8"></script>
+    <script type="text/javascript" src="main.js" charset="utf-8"></script>
+    <script type="text/javascript" src="file:///System/Library/WidgetResources/AppleClasses/AppleSlider.js" charset="utf-8"></script>
+</head>
+<body onload="load();" apple-part="com.apple.Dashcode.part.StackLayout">
+    <div id="front">
+        <img id="frontImg" src="Parts/Images/front.png" alt="" apple-locked="true" apple-part="com.apple.Dashcode.part.frontimage" apple-style="image-theme: 2; image-shape: 3; image-opacity: 1.00; image-top-color: 1,1,1,1; image-bottom-color: 0.6154,0.6154,0.6154,1; image-radius: 18,18,18,18; image-border: 1; image-border-color: 0.5294,0.5294,0.5294,1; image-border-width: 5; shine-strength: 0.90; shine-alpha-level: 0.67; shine-height: 0.50; glass-arc-height: 0.06; image-include-custom: 1; image-custom-image-path: 838chalkboard.jpg; image-custom-center: 1; image-custom-resize: 2; shadow-include-shadow: 1; shadow-offset: -1.00,-6.00; shadow-color: 0,0,0,0.3333;">
+        <div class="apple-no-children" id="info" apple-part="com.apple.Dashcode.part.infobutton" apple-default-image-visibility="hidden"></div>
+        <div apple-part="com.apple.Dashcode.part.text" class="apple-text apple-no-children" id="helloText" apple-group="text" apple-default-image-visibility="hidden"></div>
+        <textarea id="textarea" apple-part="com.apple.Dashcode.part.textarea"></textarea>
+        <select id="popup" apple-part="com.apple.Dashcode.part.backpopupbutton" apple-group="popup">
+            <option class="apple-hidden" id="option"> </option>
+            <option class="apple-hidden" id="option1">Literacy</option>
+            <option class="apple-hidden" id="option2">Math</option>
+            <option class="apple-hidden">Science</option>
+            <option class="apple-hidden">Other</option>
+            <option class="apple-hidden">French</option>
+            <option class="apple-hidden">History</option>
+            <option class="apple-hidden">Geography</option>
+            <option class="apple-hidden">Health</option>
+        </select>
+        <select id="popup1" apple-part="com.apple.Dashcode.part.backpopupbutton" apple-group="popup1">
+            <option class="apple-hidden" id="option3"> </option>
+            <option class="apple-hidden" id="option4">Literacy</option>
+            <option class="apple-hidden" id="option5">Math</option>
+            <option class="apple-hidden">Science</option>
+            <option class="apple-hidden">Other</option>
+            <option class="apple-hidden">French</option>
+            <option class="apple-hidden">History</option>
+            <option class="apple-hidden">Geography</option>
+            <option class="apple-hidden">Health</option>
+        </select>
+        <select id="popup2" apple-part="com.apple.Dashcode.part.backpopupbutton" apple-group="popup2">
+            <option class="apple-hidden" id="option6"> </option>
+            <option class="apple-hidden" id="option7">Literacy</option>
+            <option class="apple-hidden" id="option8">Math</option>
+            <option class="apple-hidden">Science</option>
+            <option class="apple-hidden">Other</option>
+            <option class="apple-hidden">French</option>
+            <option class="apple-hidden">History</option>
+            <option class="apple-hidden">Geography</option>
+            <option class="apple-hidden">Health</option>
+        </select>
+        <select id="popup3" apple-part="com.apple.Dashcode.part.backpopupbutton" apple-group="popup3">
+            <option class="apple-hidden" id="option9"> </option>
+            <option class="apple-hidden" id="option10">Literacy</option>
+            <option class="apple-hidden" id="option11">Math</option>
+            <option class="apple-hidden">Science</option>
+            <option class="apple-hidden">Other</option>
+            <option class="apple-hidden">French</option>
+            <option class="apple-hidden">History</option>
+            <option class="apple-hidden">Geography</option>
+            <option class="apple-hidden">Health</option>
+        </select>
+        <select id="popup4" apple-part="com.apple.Dashcode.part.backpopupbutton" apple-group="popup4">
+            <option class="apple-hidden" id="option12"> </option>
+            <option class="apple-hidden" id="option13">Literacy</option>
+            <option class="apple-hidden" id="option14">Math</option>
+            <option class="apple-hidden">Science</option>
+            <option class="apple-hidden">Other</option>
+            <option class="apple-hidden">French</option>
+            <option class="apple-hidden">History</option>
+            <option class="apple-hidden">Geography</option>
+            <option class="apple-hidden">Health</option>
+        </select>
+        <div id="checkbox" apple-part="com.apple.Dashcode.part.checkboxbutton" apple-group="checkbox">
+            <input type="checkbox" name="Checkbox" checked="checked" apple-part="com.apple.Dashcode.part.input" id="input" apple-group="checkbox">
+        </div>
+        <div id="infobutton" apple-part="com.apple.Dashcode.part.infobutton" class="info apple-no-children" apple-default-image-visibility="hidden"></div>
+        <textarea id="textarea1" apple-part="com.apple.Dashcode.part.textarea"></textarea>
+        <div id="checkbox1" apple-part="com.apple.Dashcode.part.checkboxbutton" apple-group="checkbox1">
+            <input type="checkbox" name="Checkbox" checked="checked" apple-part="com.apple.Dashcode.part.input" id="input1" apple-group="checkbox1">
+        </div>
+        <textarea id="textarea2" apple-part="com.apple.Dashcode.part.textarea"></textarea>
+        <textarea id="textarea3" apple-part="com.apple.Dashcode.part.textarea"></textarea>
+        <div id="checkbox3" apple-part="com.apple.Dashcode.part.checkboxbutton" apple-group="checkbox3">
+            <input type="checkbox" name="Checkbox" checked="checked" apple-part="com.apple.Dashcode.part.input" id="input3" apple-group="checkbox3">
+        </div>
+        <textarea id="textarea4" apple-part="com.apple.Dashcode.part.textarea"></textarea>
+        <div id="checkbox4" apple-part="com.apple.Dashcode.part.checkboxbutton" apple-group="checkbox4">
+            <input type="checkbox" name="Checkbox" checked="checked" apple-part="com.apple.Dashcode.part.input" id="input4" apple-group="checkbox4">
+        </div>
+        <div id="CompletedText" apple-part="com.apple.Dashcode.part.text" class="apple-text apple-no-children" apple-default-image-visibility="hidden" apple-text-overflow="ellipsis"></div>
+        <div id="WhatText" apple-part="com.apple.Dashcode.part.text" class="apple-text apple-no-children" apple-default-image-visibility="hidden" apple-text-overflow="ellipsis"></div>
+        <div id="SubjectText" apple-part="com.apple.Dashcode.part.text" class="apple-text apple-no-children" apple-default-image-visibility="hidden" apple-text-overflow="ellipsis"></div>
+        <div id="checkbox2" apple-part="com.apple.Dashcode.part.checkboxbutton" apple-group="checkbox2">
+            <input type="checkbox" name="Checkbox" checked="checked" apple-part="com.apple.Dashcode.part.input" id="input2" apple-group="checkbox2">
+        </div>
+    </div>
+    <div id="back">
+        <img id="BackgroungImg" src="Parts/Images/back.png" alt="" apple-locked="true" apple-part="com.apple.Dashcode.part.backimage" apple-style=" image-radius: 12,12,12,12; image-border: 1; image-border-color: 0.1500,0.1500,0.1500; image-border-width: 3; shadow-include-shadow: 1; shadow-blur: 9.00; shadow-offset: -1.00,-6.00; shadow-color: 0.0000,0.0000,0.0000,0.3333;">
+        <div id="DoneButton" class="apple-no-children" apple-part="com.apple.Dashcode.part.glassbutton"></div>
+        <div id="CopyrightText" apple-part="com.apple.Dashcode.part.text" class="apple-text apple-no-children" apple-default-image-visibility="hidden" apple-text-overflow="ellipsis"></div>
+        <div id="TitleText" apple-part="com.apple.Dashcode.part.text" class="apple-text apple-no-children" apple-default-image-visibility="hidden" apple-text-overflow="ellipsis"></div>
+        <div id="text" apple-part="com.apple.Dashcode.part.text" class="apple-text apple-no-children" apple-default-image-visibility="hidden" apple-text-overflow="ellipsis"></div>
+        <div id="text1" apple-part="com.apple.Dashcode.part.text" class="apple-text apple-no-children" apple-default-image-visibility="hidden" apple-text-overflow="ellipsis" apple-style="part-height-dependent: true;part-width-dependent: true;"></div>
+    </div>
+</body>
+</html>
